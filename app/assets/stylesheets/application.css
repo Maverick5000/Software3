@@ -1,0 +1,30 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require admin/css/style
+ *= require admin/plugins/bootstrap/bootstrap.min
+ *= require admin/plugins/fontawesome/bootstrap.min
+ *= require admin/plugins/fontawesome/css/all.min
+ *= require admin/plugins/linericon/style.css
+ *= require admin/plugins/Magnific-Popup/magnific-popup
+ *= require admin/plugins/nice-select/nice-select
+ *= require admin/plugins/nouislider/nouislider.min
+ *= require admin/plugins/owl-carousel/owl.carousel.min
+ *= require admin/plugins/owl-carousel/owl.theme.default.min
+ *= require admin/plugins/themify-icons/themify-icons
+ *= require admin/plugins/themify-icons/ie7/ie7
+ *= require scss/style
+ 
+ 
+ */
